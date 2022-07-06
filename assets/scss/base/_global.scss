@@ -1,0 +1,12 @@
+.font-tamil{
+    font-family: $font-tamil;
+}
+
+.color-anim {
+    animation: color-change 10s  infinite;
+    transition: 500ms;
+}
+.font-color{
+
+    color: map-get($theme-color, primary-color );
+}

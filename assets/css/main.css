@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;500;700&family=Poppins:wght@100;200;400;500;600;700;800&display=swap");
+.font-tamil {
+  font-family: "Poppins", sans-serif;
+}
+
+.color-anim {
+  -webkit-animation: color-change 10s infinite;
+          animation: color-change 10s infinite;
+  transition: 500ms;
+}
+
+.font-color {
+  color: #1623db;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta Malar", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #0818fa;
+  }
+  50% {
+    color: #fa7d08;
+  }
+  100% {
+    color: #0af80a;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #0818fa;
+  }
+  50% {
+    color: #fa7d08;
+  }
+  100% {
+    color: #0af80a;
+  }
+}
+.btn {
+  padding: 0.6rem 1.6rem;
+  border-radius: 6px;
+  line-height: 1;
+  font-size: 0.98rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+.btn-primary {
+  background-color: #1623db;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #2624bb;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  margin-left: 25rem;
+}
+.header .menu .item > a {
+  margin-right: 1.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: royalblue;
+  transition: 200ms;
+}
+.header .menu .item > a:hover {
+  color: #1623db;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: #2dff26;
+          text-decoration-color: #2dff26;
+  text-decoration-thickness: 3px;
+}
+.header .menu .item > a.active {
+  color: #1623db;
+}/*# sourceMappingURL=main.css.map */

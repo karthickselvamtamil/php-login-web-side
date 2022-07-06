@@ -1,0 +1,106 @@
+.container{
+    width: 220px;
+    height: 150px;
+    perspective: 800px;
+    margin: auto;
+    border: 2px solid green;
+}
+.slide{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform: translateZ(-338px);
+}
+.slide-box{
+    
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 100px;
+    backface-visibility: hidden;
+}
+.slide-box1{
+    background-color: rgba(0, 255, 255, 0.5);
+    transform: rotateY(0deg) translateZ(338px);
+}
+.move-1{
+    transform: translateZ(-338px) rotateY(0deg);
+}
+.slide-box2{
+    background-color: rgba(255, 0, 0, 0.5);
+    transform: rotateY(36deg) translateZ(338px);
+}
+.move-2{
+    transform: translateZ(-338px) rotateY(-36deg);
+}
+.slide-box3{
+    background-color: rgba(30, 255, 0, 0.5);
+    transform: rotateY(72deg) translateZ(338px);
+}
+.move-3{
+    transform: translateZ(-338px) rotateY(-72deg);
+}
+.slide-box4{
+    background-color: rgba(255, 255, 0, 0.5); 
+    transform: rotateY(108deg) translateZ(338px);
+}
+.move-4{
+    transform: translateZ(-338px) rotateY(-108deg);
+}
+.slide-box5{
+    background-color: rgba(0, 0, 255, 0.5);
+    transform: rotateY(144deg) translateZ(338px);
+}
+.move-5{
+    transform: translateZ(-338px) rotateY(-144deg);
+}
+.slide-box6{
+    background-color: rgba(0, 255, 255, 0.5);
+    transform: rotateY(180deg) translateZ(338px);
+}
+.move-6{
+    transform: translateZ(-338px) rotateY(-180deg);
+}
+.slide-box7{
+    background-color: rgba(255, 0, 0, 0.5);
+    transform: rotateY(216deg) translateZ(338px);
+}
+.move-7{
+    transform: translateZ(-338px) rotateY(-216deg);
+}
+.slide-box8{
+    background-color: rgba(30, 255, 0, 0.5);
+    transform: rotateY(252deg) translateZ(338px);
+}
+.move-8{
+    transform: translateZ(-338px) rotateY(-252deg);
+}
+.slide-box9{
+    background-color: rgba(255, 255, 0, 0.5); 
+    transform: rotateY(288deg) translateZ(338px);
+}.move-9{
+    transform: translateZ(-338px) rotateY(-288deg);
+}
+.slide-box10{
+    background-color: rgba(0, 0, 255, 0.5);
+    transform: rotateY(324deg) translateZ(338px);
+}
+.move-10{
+    transform: translateZ(-338px) rotateY(-324deg);
+}
+.action{
+    text-align: center;
+}
+button{
+    margin: 4rem 1rem;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+

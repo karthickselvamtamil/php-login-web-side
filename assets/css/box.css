@@ -1,0 +1,84 @@
+.container{
+    height: 200px;
+    width: 300px;
+    margin: 75px auto;
+    perspective: 500px;
+}
+.box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+    transform: translateZ(-50px);
+    backface-visibility: visible;
+}
+.box-face{
+    position: absolute;
+    border: 1px solid saddlebrown;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+}
+.box-face-front{
+    background-color: rgba(0, 0, 255, 0.5);
+    transform: rotateY(0deg) translateZ(50px);
+}
+.visible-front{
+    transform: translateZ(-50px) rotateY(0deg);
+}
+.box-face-back{
+    background-color: rgba(0, 255, 0, 0.5);
+    transform: rotateY(180deg) translateZ(50px);
+}
+.visible-back{
+    transform: translateZ(-50px) rotateY(-180deg);
+}
+.box-face-left{
+    height: 200px;
+    width: 100px;
+    left: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.visible-left{
+    transform: translateZ(-150px) rotateY(90deg);
+}
+.box-face-right{
+    height: 200px;
+    width: 100px;
+    left: 100px;
+    background-color: rgba(255, 0, 255, 0.5);
+    transform: rotateY(90deg) translateZ(150px);
+}
+.visible-right{
+    transform: translateZ(-150px) rotateY(-90deg);
+}
+.box-face-top{
+    height: 100px;
+    width: 300px;
+    top: 50px;
+    line-height: 100px;
+    background-color: rgba(0, 255, 255, 0.5);
+    transform: rotateX(90deg) translateZ(100px);
+}
+.visible-top{
+    transform: translateZ(-100px) rotateX(-90deg);
+}
+.box-face-buttom{
+    height: 100px;
+    width: 300px;
+    top: 50px;
+    line-height: 100px;
+    background-color: rgba(255, 255, 0, 0.5);
+    transform: rotateX(-90deg) translateZ(100px);
+}
+.visible-buttom{
+    transform: translateZ(-100px) rotateX(90deg);
+}
+
+.radio-group{
+    text-align: center;
+}
