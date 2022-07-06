@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/calculater.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="calculater.css">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
             <button onclick="calculate()" class="equal">=</button>
         </div>
     </div>
-    <script src="/assets/js/calculater.js"></script>
+    <script src="calculater.js"></script>
 </body>
 
 </html>

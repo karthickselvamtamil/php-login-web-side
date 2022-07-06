@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cube-Animation</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/cube.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="cube.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                                 <input type="radio" name="rotate" id="cube-selfradio6" value="buttom">Buttom
     </div>
 
-    <script src="/assets/js/cube.js"></script>
+    <script src="cube.js"></script>
 </body>
 
 </html>

@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joker-Boy</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/web.css">
-    <link rel="stylesheet" href="/assets/html/project.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="web.css">
 </head>
 
 <body>
@@ -25,11 +24,11 @@
             <ul class="menu">
                 <li class="item"><a href="#" class="active">home</a></li>
                 <li class="item">
-                    <a href="/assets/php/calculater.php" target="_blank">calculater</a>
+                    <a href="calculater.php" target="_blank">calculater</a>
                 </li>
-                <li class="item"><a href="/assets/php/cube.php" target="_blank">cube</a></li>
-                <li class="item "><a href="/assets/php/box.php" target="_blank">Box</a></li>
-                <li class="item "><a href="/assets/php/slide.php" target="_blank">>slide</a></li>
+                <li class="item"><a href="cube.php" target="_blank">cube</a></li>
+                <li class="item "><a href="box.php" target="_blank">Box</a></li>
+                <li class="item "><a href="slide.php" target="_blank">>slide</a></li>
                 <li class=><a href="#" class="btn btn-primary">contact-us</a></li>
             </ul>
         </div>
@@ -60,7 +59,7 @@
         </ul>
     </main>
     <!-- ========== End Main ========== -->
-    <script src="/assets/js/web.js"></script>
+    <script src="web.js"></script>
 
 </body>
 

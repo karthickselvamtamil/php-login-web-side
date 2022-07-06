@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box-Animation</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/box.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="box.css">
 </head>
 <body>
     <div class="container">
@@ -38,7 +38,7 @@
             <input type="radio" name="box-select" id="box6" value="buttom">Buttom
         </label>
     </div>
-       <script src="/assets/js/box.js">
+       <script src="box.js">
        </script>
 </body>
 </html>

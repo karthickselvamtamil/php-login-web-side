@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slide-Animation</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/slide.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="slide.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         <button class="pre">prev</button>
         <button class="next">next</button>
     </div>
-    <script src="/assets/js/slide.js"></script>
+    <script src="slide.js"></script>
 </body>
 
 </html>
